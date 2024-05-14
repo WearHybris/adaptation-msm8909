@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_dwz:
+override_dh_strip:
+override_dh_shlibdeps:
+
+override_dh_installsystemd:
+	dh_installsystemd -padaptation-msm8909 --name=android-init android-init.service --no-start

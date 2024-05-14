@@ -1,0 +1,15 @@
+Source: adaptation-msm8909
+Maintainer: Bardia Moshiri
+Section: metapackages
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+Standards-Version: 4.5.0.3
+Vcs-Browser: https://github.com/WearHybris/adaptation-msm8909
+Vcs-Git: https://github.com/WearHybris/adaptation-msm8909.git
+
+Package: adaptation-msm8909
+Architecture: armhf
+Depends: ${misc:Depends},
+Essential: yes
+Description: adaptation-msm8909
+ MSM8909 API28 adaptation package

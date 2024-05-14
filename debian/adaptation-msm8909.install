@@ -1,0 +1,9 @@
+usr/
+lib/
+etc/
+default.prop
+init.rc
+nonplat_file_contexts
+nonplat_property_contexts
+plat_file_contexts
+plat_property_contexts
